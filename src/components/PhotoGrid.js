@@ -1,5 +1,7 @@
 import React from "react";
-import { View, Image, StyleSheet } from "react-native";
+import { View, Image, StyleSheet, Dimensions } from "react-native";
+
+const largura = Dimensions.get("window").width / 3;
 
 export default function PhotoGrid() {
   const fotos = Array.from({ length: 18 }).map(
@@ -26,7 +28,7 @@ const styles = StyleSheet.create({
   },
 
   foto: {
-    width: "33.33%",
-    aspectRatio: 1,
+    width: largura,
+    height: largura,
   },
 });
