@@ -4,8 +4,8 @@ import { View, Text, StyleSheet } from "react-native";
 export default function ProfileBio() {
   return (
     <View style={styles.bio}>
-      <Text style={styles.nome}>Abigail Dev</Text>
-      <Text>💻 Sistemas para Internet</Text>
+      <Text style={styles.nome}>Viagens</Text>
+      <Text>Por aí ...</Text>
       <Text></Text>
     </View>
   );
